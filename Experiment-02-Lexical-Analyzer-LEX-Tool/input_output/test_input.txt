@@ -1,0 +1,11 @@
+int x, y, z;
+float total = 0;
+x = 5;
+y = 10;
+z = x + y;
+if (z >= 15) {
+    total = total + z;
+}
+while (x < 100) {
+    x = x * 2;
+}

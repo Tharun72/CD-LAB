@@ -1,0 +1,29 @@
+===== Arithmetic Expression Validator =====
+
+Expression: a + b * c
+Tokens    : a + b * c 
+Result    : VALID arithmetic expression
+
+Expression: (a + b) * (c - d)
+Tokens    : ( a + b ) * ( c - d ) 
+Result    : VALID arithmetic expression
+
+Expression: x1 + 25 / y2
+Tokens    : x1 + 25 / y2 
+Result    : VALID arithmetic expression
+
+Expression: a + + b
+Tokens    : a + + b 
+Result    : INVALID arithmetic expression
+
+Expression: (a + b
+Tokens    : ( a + b 
+Result    : INVALID arithmetic expression
+
+Expression: a * (b + c) - d / e
+Tokens    : a * ( b + c ) - d / e 
+Result    : VALID arithmetic expression
+
+Expression: 3 @ 4
+Tokens    : 3 @ 4 
+Result    : INVALID (contains illegal character)

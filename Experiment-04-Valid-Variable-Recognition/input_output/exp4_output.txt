@@ -1,0 +1,13 @@
+===== Valid Variable Name Recognizer =====
+(Enter each candidate variable name on its own line; reading from input file)
+
+sum             -> VALID variable name
+total_marks     -> INVALID (illegal character present)
+2ndValue        -> INVALID (starts with a digit)
+_hidden         -> INVALID (illegal character present)
+studentName1    -> VALID variable name
+9average        -> INVALID (starts with a digit)
+var$name        -> INVALID (illegal character present)
+x               -> VALID variable name
+Result123       -> VALID variable name
+my-var          -> INVALID (illegal character present)

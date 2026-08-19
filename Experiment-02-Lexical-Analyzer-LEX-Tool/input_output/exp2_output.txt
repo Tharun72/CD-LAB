@@ -1,0 +1,63 @@
+===== Token Classification =====
+int             -> KEYWORD
+x               -> IDENTIFIER
+,               -> SPECIAL SYMBOL
+y               -> IDENTIFIER
+,               -> SPECIAL SYMBOL
+z               -> IDENTIFIER
+;               -> SPECIAL SYMBOL
+float           -> KEYWORD
+total           -> IDENTIFIER
+=               -> OPERATOR
+0               -> NUMBER
+;               -> SPECIAL SYMBOL
+x               -> IDENTIFIER
+=               -> OPERATOR
+5               -> NUMBER
+;               -> SPECIAL SYMBOL
+y               -> IDENTIFIER
+=               -> OPERATOR
+10              -> NUMBER
+;               -> SPECIAL SYMBOL
+z               -> IDENTIFIER
+=               -> OPERATOR
+x               -> IDENTIFIER
++               -> OPERATOR
+y               -> IDENTIFIER
+;               -> SPECIAL SYMBOL
+if              -> KEYWORD
+(               -> SPECIAL SYMBOL
+z               -> IDENTIFIER
+>=              -> OPERATOR
+15              -> NUMBER
+)               -> SPECIAL SYMBOL
+{               -> SPECIAL SYMBOL
+total           -> IDENTIFIER
+=               -> OPERATOR
+total           -> IDENTIFIER
++               -> OPERATOR
+z               -> IDENTIFIER
+;               -> SPECIAL SYMBOL
+}               -> SPECIAL SYMBOL
+while           -> KEYWORD
+(               -> SPECIAL SYMBOL
+x               -> IDENTIFIER
+<               -> OPERATOR
+100             -> NUMBER
+)               -> SPECIAL SYMBOL
+{               -> SPECIAL SYMBOL
+x               -> IDENTIFIER
+=               -> OPERATOR
+x               -> IDENTIFIER
+*               -> OPERATOR
+2               -> NUMBER
+;               -> SPECIAL SYMBOL
+}               -> SPECIAL SYMBOL
+
+===== Summary =====
+Total Lines       : 12
+Keywords          : 4
+Identifiers       : 16
+Numbers           : 6
+Operators         : 11
+Special Symbols   : 17

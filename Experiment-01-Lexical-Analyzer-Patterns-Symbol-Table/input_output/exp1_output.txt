@@ -1,0 +1,68 @@
+===== Token Stream =====
+COMMENT       : /* Sample C program to test the lexical analyzer */
+KEYWORD       : int
+IDENTIFIER    : main
+PUNCTUATION   : (
+PUNCTUATION   : )
+PUNCTUATION   : {
+KEYWORD       : int
+IDENTIFIER    : a
+PUNCTUATION   : ,
+IDENTIFIER    : b
+PUNCTUATION   : ,
+IDENTIFIER    : sum
+PUNCTUATION   : ;
+KEYWORD       : float
+IDENTIFIER    : pi
+ASSIGN OP     : =
+CONSTANT      : 3.14
+PUNCTUATION   : ;
+IDENTIFIER    : a
+ASSIGN OP     : =
+CONSTANT      : 10
+PUNCTUATION   : ;
+IDENTIFIER    : b
+ASSIGN OP     : =
+CONSTANT      : 20
+PUNCTUATION   : ;
+IDENTIFIER    : sum
+ASSIGN OP     : =
+IDENTIFIER    : a
+ARITH OP      : +
+IDENTIFIER    : b
+PUNCTUATION   : ;
+COMMENT       : // compute average
+KEYWORD       : if
+PUNCTUATION   : (
+IDENTIFIER    : sum
+RELATIONAL OP : >
+CONSTANT      : 25
+PUNCTUATION   : )
+PUNCTUATION   : {
+IDENTIFIER    : printf
+PUNCTUATION   : (
+STRING LITERAL: "Sum is large"
+PUNCTUATION   : )
+PUNCTUATION   : ;
+PUNCTUATION   : }
+KEYWORD       : else
+PUNCTUATION   : {
+IDENTIFIER    : printf
+PUNCTUATION   : (
+STRING LITERAL: "Sum is small"
+PUNCTUATION   : )
+PUNCTUATION   : ;
+PUNCTUATION   : }
+KEYWORD       : return
+CONSTANT      : 0
+PUNCTUATION   : ;
+PUNCTUATION   : }
+
+===== Symbol Table (Identifiers) =====
+No.    Identifier Name     
+1      main                
+2      a                   
+3      b                   
+4      sum                 
+5      pi                  
+6      printf              

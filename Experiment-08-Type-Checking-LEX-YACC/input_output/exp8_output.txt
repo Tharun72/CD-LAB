@@ -1,0 +1,11 @@
+===== Type Checker using LEX and YACC =====
+
+Declared: int a
+Declared: float b
+Declared: int c
+OK: a (int) = expression of type int
+OK: b (float) = expression of type float
+OK: c (int) = expression of type int
+Type Error: cannot assign FLOAT value to INT variable 'a'
+Error: variable 'd' not declared
+OK: b (float) = expression of type float

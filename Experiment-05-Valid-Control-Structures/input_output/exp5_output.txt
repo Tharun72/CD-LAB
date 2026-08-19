@@ -1,0 +1,14 @@
+===== Control Structure Syntax Validator =====
+
+VALID   : FOR loop      -> for (i = 0; i < 10; i++) {
+VALID   : WHILE loop    -> while (x < 100) {
+VALID   : IF (simple)   -> if (a > b) {
+INVALID : malformed 'else' construct (missing condition/braces)
+VALID   : IF (simple)   -> if (score > 90) {
+INVALID : malformed 'else' construct (missing condition/braces)
+VALID   : IF (simple)   -> if (score > 75) {
+VALID   : SWITCH-CASE  -> switch (choice) {
+    case 1:
+INVALID : malformed 'case' construct (missing condition/braces)
+INVALID : malformed 'if' construct (missing condition/braces)
+INVALID : malformed 'for' construct (missing condition/braces)

@@ -1,0 +1,13 @@
+===== Three Address Code Generator =====
+
+t1 = c * d
+t2 = b + t1
+a = t2
+t3 = a + b
+t4 = c - d
+t5 = t3 * t4
+x = t5
+t6 = a * a
+t7 = b * b
+t8 = t6 + t7
+y = t8

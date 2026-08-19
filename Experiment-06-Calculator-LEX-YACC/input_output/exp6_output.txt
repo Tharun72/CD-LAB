@@ -1,0 +1,11 @@
+===== Calculator using LEX and YACC =====
+Enter arithmetic expressions (one per line):
+
+Result = 23
+Result = 35
+Result = 5
+Result = 2
+Result = 5
+Error: Division by zero
+Result = 0
+Result = 12
