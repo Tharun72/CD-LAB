@@ -1,12 +1,3 @@
-/*
- * Experiment 9: Implement simple code optimization techniques
- * (Constant Folding, Strength Reduction, Algebraic Transformation)
- * on a list of three-address-code statements.
- *
- * Author: Abijith U
- * Reg No : 24CS0021
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
