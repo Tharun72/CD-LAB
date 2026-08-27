@@ -1,13 +1,3 @@
-/*
- * Experiment 8: Implement type checking using LEX and YACC.
- * Supports declarations (int/float) and assignment statements,
- * checking for type mismatches (e.g., assigning float to int without
- * explicit handling) and undeclared variable usage.
- *
- * Author: Abijith U
- * Reg No : 24CS0021
- */
-
 %{
 #include <stdio.h>
 #include <stdlib.h>
