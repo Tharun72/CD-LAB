@@ -3,9 +3,6 @@
  * Classifies tokens into keywords, identifiers, numbers, operators,
  * and special symbols, and prints a summary count of each category.
  *
- * Author: Abijith U
- * Reg No : 24CS0021
- */
 
 %{
 #include <stdio.h>
