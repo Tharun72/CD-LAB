@@ -1,20 +1,3 @@
-/*
- * Experiment 3: Program to recognize a valid arithmetic expression
- * that uses operators +, -, *, and /.
- *
- * Grammar (simplified, left-recursion free for a lexer-level check):
- *   expr   -> term ((+|-) term)*
- *   term   -> factor ((*|/) factor)*
- *   factor -> IDENTIFIER | NUMBER | ( expr )
- *
- * This LEX program tokenizes the input and a small recursive-descent
- * validator (in C, driven by the LEX-generated token stream) checks
- * whether the full expression is syntactically valid.
- *
- * Author: Abijith U
- * Reg No : 24CS0021
- */
-
 %{
 #include <stdio.h>
 #include <stdlib.h>
