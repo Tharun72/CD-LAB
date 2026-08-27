@@ -1,16 +1,3 @@
-/*
- * Experiment 10: Implement the back-end of a compiler which takes
- * three-address code as input and produces 8086 assembly language
- * code as output.
- *
- * Supported TAC statement forms:
- *   x = y op z      (op is +, -, *, /)
- *   x = y
- *
- * Author: Abijith U
- * Reg No : 24CS0021
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
