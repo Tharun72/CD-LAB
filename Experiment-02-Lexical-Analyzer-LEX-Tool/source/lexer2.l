@@ -1,8 +1,3 @@
-/*
- * Experiment 2: Implement a Lexical Analyzer using LEX Tool
- * Classifies tokens into keywords, identifiers, numbers, operators,
- * and special symbols, and prints a summary count of each category.
- *
 
 %{
 #include <stdio.h>
