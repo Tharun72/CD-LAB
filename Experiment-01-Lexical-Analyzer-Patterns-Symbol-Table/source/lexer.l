@@ -1,12 +1,3 @@
-/*
- * Experiment 1: Using the LEX tool, develop a lexical analyzer to
- * recognize a few patterns in C (identifiers, constants, comments,
- * operators, etc.). Create a symbol table while recognizing identifiers.
- *
- * Author: Abijith U
- * Reg No : 24CS0021
- */
-
 %{
 #include <stdio.h>
 #include <string.h>
