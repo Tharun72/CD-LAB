@@ -1,12 +1,3 @@
-/*
- * Experiment 7: Generate three address code for a simple program
- * using LEX and YACC. Supports assignment statements with +, -, *, /
- * and parentheses.
- *
- * Author: Abijith U
- * Reg No : 24CS0021
- */
-
 %{
 #include <stdio.h>
 #include <stdlib.h>
