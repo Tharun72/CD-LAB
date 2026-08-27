@@ -1,11 +1,3 @@
-/*
- * Experiment 6: Implementation of a calculator using LEX and YACC.
- * Supports +, -, *, /, parentheses, and unary minus on integers.
- *
- * Author: Abijith U
- * Reg No : 24CS0021
- */
-
 %{
 #include <stdio.h>
 #include <stdlib.h>
