@@ -1,15 +1,3 @@
-/*
- * Experiment 4: Program to recognize a valid variable which starts
- * with a letter followed by any number of letters or digits.
- *
- * Rule: variable -> letter (letter | digit)*
- * Any input not matching this pattern (starts with digit, contains
- * illegal characters, etc.) is reported as invalid.
- *
- * Author: Abijith U
- * Reg No : 24CS0021
- */
-
 %{
 #include <stdio.h>
 %}
