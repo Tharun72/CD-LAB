@@ -1,16 +1,3 @@
-/*
- * Experiment 5: Program to recognize a valid control structure syntax
- * of C language (for loop, while loop, if-else, if-else-if, switch-case).
- *
- * Approach: LEX recognizes the keyword and its surrounding syntactic
- * skeleton using regular expressions tuned to each control structure's
- * required shape (matching parentheses/braces pattern), and reports
- * which construct was matched.
- *
- * Author: Abijith U
- * Reg No : 24CS0021
- */
-
 %{
 #include <stdio.h>
 %}
